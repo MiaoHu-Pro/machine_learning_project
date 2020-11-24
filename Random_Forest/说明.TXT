@@ -1,0 +1,78 @@
+参照李航书编写randomforest:
+该工程所构造的树是可回溯二叉树
+
+样本抽样：每一棵数的样本使用有放回的随机采样
+特征抽样：对于树的每一个节点，选取的候选分裂特征数是 n = sqrt(N) 或 n = log2(N),(N为样本属性)
+分裂指标：gini系数 或者 信息增益
+终止条件：
+
+节点划分最小不纯度：1e-7：即当节点的gini系数小于1e-7时，或者 当前节点的信息增益为 0停止划分
+根据属性划分节点时，每个划分最少的样本数 min_samples_split = 2，小于2时，停止划分
+树的深度，max_depth = 10 ,根据实际情况调整
+满足以上条件之一，停止该分支的划分
+
+
+离散过程：
+随机选取候选分裂特征，对于每个特征进行如下操作：
+
+	根据当前属性，获取属性值个数记为m
+	则产生m-1个划分点
+	划分的 threshold = (values[j] + values[j+1])/2 ：即相邻不同属性值的均值
+	计算以threshold为划分点的gini系数
+	遍历所有的属性值，返回最佳的划分点
+最后返回最佳的分裂属性和最佳分裂值
+
+
+
+
+
+RandomForestClassifier：
+    __init__ :构造函数
+    fit：训练函数
+    __predict_ ：私有函数，做预测
+    predit：预测函数，返回类标签，基于__predict_
+    predict_proba：返回类别概率和类标签基于__predict_
+
+
+DecisionTreeClassifier：
+    __init__ :构造函数
+    fit：训练函数，fit完成后，即树构建完成，会调用dran_tree ，先序遍历树，打印树各个节点的信息
+    predit：预测函数，返回类标签
+    build_tree：递归的做分裂
+            1、根据给定的分裂指标(信息增益或gini系数) 寻找最优的分裂属性和最优分裂属性值
+            2、根据分裂属性和属性值将样本分成两部分
+            3、判断是否终止划分
+            4、递归划分左右子树
+
+
+
+#各个文件的说明
+random_forest 随机森林主类
+decision_tree 决策树主类
+utilities 工具函数，样本抽样，计算信息增益，计算gini系数，树的打印等
+sklearn_rf_compaer_to_myrf.py 自写的RF 与 sklearn-learn 中的RF相比较
+Novelty_Class_Detection_for_DFC.py 结合松弛边界的双特征比较算法的验证
+test_forest 测试随机森林
+test_tree  测试决策树
+test 调试函数使用
+
+
+
+
+
+
+python版本：python 3.6
+链接：http://pan.baidu.com/s/1dFAjSaP 密码：rb8g
+Anconada3 内涵python包和工具包
+pycharm 集成开发环境
+
+=--------------------------------=
+
+
+
+
+
+
+
+
+

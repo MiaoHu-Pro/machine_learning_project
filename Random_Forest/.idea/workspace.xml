@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/random_forest.py" line="53" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="738e3833-ed59-412e-b657-7b7ba988b104" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sklearn_rf_compaer_to_myrf.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sklearn_rf_compaer_to_myrf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iris_2_3</find>
+      <find>dran_graph</find>
+      <find>D:\ProgramData\Anaconda2\envs\py3x\python.exe E:/python_project/Random_Forest_Classification_v5_DFC_v4/Novelty_Class_Detection_for_DFC.py train_X ......type..... &lt;class 'numpy.ndarray'&gt; tree_0 按照树的先序遍历： 特征,特征值,gnin系数 : 4 , 3.193 , 0.0176904176904 分裂特征 4 取值范围 [ 2.63  , 4.033 ] 父分裂特征 0 取值范围 [ 10.59  , 21.18 ] left 类别 : 3.0 父分裂特征 4 取值范围 [ 2.63  , 3.155 ] 随机选取的特征 2 取值范围 [ 0.8081  , 0.8964 ] 该叶子节点的样本数 ： 56 该分支已选的特征 ： [0, 4] ------end------- right: 特征,特征值,gnin系数 : 0 , 14.29 , 0.0 分裂特征 0 取值范围 [ 13.2  , 21.18 ] 父分裂特征 4 取值范围 [ 3.231  , 4.033 ] left 类别 : 3.0 父分裂特征 0 取值范围 [ 13.2  , 13.2 ] 随机选取的特征 2 取值范围 [ 0.8883  , 0.8883 ] 该叶子节点的样本数 ： 1 该分支已选的特征 ： [0, 4, 0] ------end------- right 类别 : 2.0 父分裂特征 0 取值范围 [ 15.38  , 21.18 ] 随机选取的特征 5 取值范围 [ 1.472  , 6.682 ] 该叶子节点的样本数 ： 54 该分支已选的特征 ： [0, 4, 0] ------end------- 打印每个节点的样本数 [111, 56, 55, 1, 54] tree_1 按照树的先序遍历： 特征,特征值,gnin系数 : 0 , 14.36 , 0.0 分裂特征 0 取值范围 [ 10.59  , 20.97 ] 父分裂特征 4 取值范围 [ 2.63  , 3.991 ] left 类别 : 3.0 父分裂特征 0 取值范围 [ 10.59  , 13.34 ] 随机选取的特征 3 取值范围 [ 4.899  , 5.541 ] 该叶子节点的样本数 ： 58 该分支已选的特征 ： [4, 0] ------end------- right 类别 : 2.0 父分裂特征 0 取值范围 [ 15.38  , 20.97 ] 随机选取的特征 6 取值范围 [ 5.144  , 6.55 ] 该叶子节点的样本数 ： 53 该分支已选的特征 ： [4, 0] ------end------- 打印每个节点的样本数 [111, 58, 53] tree_2 按照树的先序遍历： 特征,特征值,gnin系数 : 1 , 14.42 , 0.0 分裂特征 1 取值范围 [ 12.41  , 17.25 ] 父分裂特征 5 取值范围 [ 1.649  , 8.456 ] left 类别 : 3.0 父分裂特征 1 取值范围 [ 12.41  , 13.95 ] 随机选取的特征 0 取值范围 [ 10.59  , 13.34 ] 该叶子节点的样本数 ： 67 该分支已选的特征 ： [5, 1] ------end------- right 类别 : 2.0 父分裂特征 1 取值范围 [ 14.89  , 17.25 ] 随机选取的特征 2 取值范围 [ 0.8527  , 0.9077 ] 该叶子节点的样本数 ： 44 该分支已选的特征 ： [5, 1] ------end------- 打印每个节点的样本数 [111, 67, 44] tree_3 按照树的先序遍历： 特征,特征值,gnin系数 : 1 , 14.415 , 0.0 分裂特征 1 取值范围 [ 12.57  , 17.25 ] 父分裂特征 4 取值范围 [ 2.641  , 4.033 ] left 类别 : 3.0 父分裂特征 1 取值范围 [ 12.57  , 13.94 ] 随机选取的特征 3 取值范围 [ 4.981  , 5.541 ] 该叶子节点的样本数 ： 59 该分支已选的特征 ： [4, 1] ------end------- right 类别 : 2.0 父分裂特征 1 取值范围 [ 14.89  , 17.25 ] 随机选取的特征 5 取值范围 [ 1.472  , 5.901 ] 该叶子节点的样本数 ： 52 该分支已选的特征 ： [4, 1] ------end------- 打印每个节点的样本数 [111, 59, 52] tree_4 按照树的先序遍历： 特征,特征值,gnin系数 : 1 , 14.305 , 0.0 分裂特征 1 取值范围 [ 12.57  , 17.25 ] 父分裂特征 1 取值范围 [ 12.57  , 17.25 ] left 类别 : 3.0 父分裂特征 1 取值范围 [ 12.57  , 13.95 ] 随机选取的特征 0 取值范围 [ 10.74  , 13.34 ] 该叶子节点的样本数 ： 45 该分支已选的特征 ： [1, 1] ------end------- right 类别 : 2.0 父分裂特征 1 取值范围 [ 14.66  , 17.25 ] 随机选取的特征 2 取值范围 [ 0.8452  , 0.9077 ] 该叶子节点的样本数 ： 66 该分支已选的特征 ： [1, 1] ------end------- 打印每个节点的样本数 [111, 45, 66] tree_5 按照树的先序遍历： 特征,特征值,gnin系数 : 2 , 0.8678 , 0.13323850166 分裂特征 2 取值范围 [ 0.8081  , 0.9077 ] 父分裂特征 3 取值范围 [ 4.981  , 6.675 ] left: 特征,特征值,gnin系数 : 0 , 15.32 , 0.0 分裂特征 0 取值范围 [ 10.74  , 18.98 ] 父分裂特征 2 取值范围 [ 0.8081  , 0.8658 ] left 类别 : 3.0 父分裂特征 0 取值范围 [ 10.74  , 13.32 ] 随机选取的特征 4 取值范围 [ 2.63  , 3.073 ] 该叶子节点的样本数 ： 51 该分支已选的特征 ： [3, 2, 0] ------end------- right 类别 : 2.0 父分裂特征 0 取值范围 [ 17.32  , 18.98 ] 随机选取的特征 4 取值范围 [ 3.403  , 3.67 ] 该叶子节点的样本数 ： 3 该分支已选的特征 ： [3, 2, 0] ------end------- right: 特征,特征值,gnin系数 : 4 , 3.267 , 0.0 分裂特征 4 取值范围 [ 2.981  , 3.991 ] 父分裂特征 2 取值范围 [ 0.8698  , 0.9077 ] left 类别 : 3.0 父分裂特征 4 取值范围 [ 2.981  , 3.126 ] 随机选取的特征 1 取值范围 [ 13.2  , 13.53 ] 该叶子节点的样本数 ： 5 该分支已选的特征 ： [3, 2, 4] ------end------- right 类别 : 2.0 父分裂特征 4 取值范围 [ 3.408  , 3.991 ] 随机选取的特征 6 取值范围 [ 5.144  , 6.55 ] 该叶子节点的样本数 ： 52 该分支已选的特征 ： [3, 2, 4] ------end------- 打印每个节点的样本数 [111, 54, 51, 3, 57, 5, 52] tree_6 按照树的先序遍历： 特征,特征值,gnin系数 : 0 , 14.36 , 0.0 分裂特征 0 取值范围 [ 10.59  , 20.71 ] 父分裂特征 0 取值范围 [ 10.59  , 20.71 ] left 类别 : 3.0 父分裂特征 0 取值范围 [ 10.59  , 13.34 ] 随机选取的特征 6 取值范围 [ 4.794  , 5.395 ] 该叶子节点的样本数 ： 59 该分支已选的特征 ： [0, 0] ------end------- right 类别 : 2.0 父分裂特征 0 取值范围 [ 15.38  , 20.71 ] 随机选取的特征 5 取值范围 [ 1.649  , 6.682 ] 该叶子节点的样本数 ： 52 该分支已选的特征 ： [0, 0] ------end------- 打印每个节点的样本数 [111, 59, 52] tree_7 按照树的先序遍历： 特征,特征值,gnin系数 : 0 , 14.35 , 0.0 分裂特征 0 取值范围 [ 10.74  , 21.18 ] 父分裂特征 3 取值范围 [ 5.011  , 6.675 ] left 类别 : 3.0 父分裂特征 0 取值范围 [ 10.74  , 13.32 ] 随机选取的特征 6 取值范围 [ 4.83  , 5.491 ] 该叶子节点的样本数 ： 62 该分支已选的特征 ： [3, 0] ------end------- right 类别 : 2.0 父分裂特征 0 取值范围 [ 15.38  , 21.18 ] 随机选取的特征 4 取值范围 [ 3.231  , 4.033 ] 该叶子节点的样本数 ： 49 该分支已选的特征 ： [3, 0] ------end------- 打印每个节点的样本数 [111, 62, 49] tree_8 按照树的先序遍历： 特征,特征值,gnin系数 : 3 , 5.6295 , 0.0348144754924 分裂特征 3 取值范围 [ 5.009  , 6.675 ] 父分裂特征 0 取值范围 [ 10.74  , 21.18 ] left: 特征,特征值,gnin系数 : 5 , 3.6155 , 0.0581113801453 分裂特征 5 取值范围 [ 1.661  , 7.035 ] 父分裂特征 3 取值范围 [ 5.009  , 5.541 ] left: 特征,特征值,gnin系数 : 1 , 14.185 , 0.0 分裂特征 1 取值范围 [ 12.87  , 14.89 ] 父分裂特征 5 取值范围 [ 1.661  , 3.6 ] left 类别 : 3.0 父分裂特征 1 取值范围 [ 12.87  , 13.71 ] 随机选取的特征 6 取值范围 [ 4.83  , 5.491 ] 该叶子节点的样本数 ： 12 该分支已选的特征 ： [0, 3, 5, 1] ------end------- right 类别 : 2.0 父分裂特征 1 取值范围 [ 14.66  , 14.89 ] 随机选取的特征 2 取值范围 [ 0.899  , 0.9064 ] 该叶子节点的样本数 ： 2 该分支已选的特征 ： [0, 3, 5, 1] ------end------- right 类别 : 3.0 父分裂特征 5 取值范围 [ 3.631  , 7.035 ] 随机选取的特征 1 取值范围 [ 12.72  , 13.95 ] 该叶子节点的样本数 ： 45 该分支已选的特征 ： [0, 3, 5] ------end------- right 类别 : 2.0 父分裂特征 3 取值范围 [ 5.718  , 6.675 ] 随机选取的特征 2 取值范围 [ 0.8452  , 0.9077 ] 该叶子节点的样本数 ： 52 该分支已选的特征 ： [0, 3] ------end------- 打印每个节点的样本数 [111, 59, 14, 12, 2, 45, 52] tree_9 按照树的先序遍历： 特征,特征值,gnin系数 : 0 , 14.47 , 0.0 分裂特征 0 取值范围 [ 10.74  , 21.18 ] 父分裂特征 4 取值范围 [ 2.63  , 4.033 ] left 类别 : 3.0 父分裂特征 0 取值范围 [ 10.74  , 13.34 ] 随机选取的特征 2 取值范围 [ 0.8081  , 0.8964 ] 该叶子节点的样本数 ： 60 该分支已选的特征 ： [4, 0] ------end------- right 类别 : 2.0 父分裂特征 0 取值范围 [ 15.6  , 21.18 ] 随机选取的特征 6 取值范围 [ 5.144  , 6.449 ] 该叶子节点的样本数 ： 51 该分支已选的特征 ： [4, 0] ------end------- 打印每个节点的样本数 [111, 60, 51] rf_model.predict_novelty...begin... 训练数据的预测概率向量： [ 2.  3.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.   2.  3.  2.  2.  2.  3.  3.  2.  2.  2.] 训练数据的预测准确度： 1.0 === E:\python_project\Random_Forest_Classification_v5_DFC_v4\random_forest.py __predict_novelty 102 === === E:\python_project\Random_Forest_Classification_v5_DFC_v4\random_forest.py predict_novelty 112 === [[-1.  3.  3. -1. -1. -1.  3.  2.  2.  2.  3.  3.  3.  3. -1.  3.  2. -1.    3.  3.  3. -1.  3. -1. -1.  3.  3.  3.  3.  3.  2.  3.  3. -1.  2.  2.    2. -1.  3.  3.  3.  3.  2.  2.  3. -1. -1. -1. -1. -1.  2.  3. -1.  3.   -1. -1. -1.  2.  3.  3.  3.  3.  3.  3.  3.  3.  3.  3.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1. -1. -1.  2. -1. -1. -1.  2.  2.  2. -1. -1. -1. -1. -1. -1.  2. -1.    3. -1. -1.  2.  3. -1.  2.  3.  3. -1.  3.  3.  2. -1. -1. -1.  2.  2.    2. -1. -1.  3.  3.  3.  2.  2. -1.  2. -1. -1. -1. -1.  2. -1. -1. -1.   -1. -1. -1.  2.  3.  3.  3.  3.  3.  3.  3. -1. -1. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1. -1. -1. -1. -1. -1. -1.  2.  2.  2. -1. -1. -1. -1. -1. -1. -1. -1.    3. -1. -1. -1. -1.  2. -1.  3.  3. -1.  3. -1.  2. -1. -1.  2.  2.  2.    2. -1. -1.  3.  3.  3.  2. -1. -1. -1. -1. -1.  2. -1.  2.  2. -1. -1.    2. -1. -1.  2. -1.  3.  3.  3.  3. -1.  3. -1. -1. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1.  3.  3. -1.  3. -1.  3.  2.  2.  2.  3.  3.  3.  3. -1.  3.  2.  3.    3. -1. -1. -1.  3.  2. -1.  3.  3.  3.  3.  3.  2. -1.  3.  2.  2.  2.    2. -1.  3.  3.  3.  3.  2. -1.  3. -1. -1. -1.  2. -1.  2.  2. -1.  2.    2. -1. -1.  2.  3.  3.  3.  3.  3.  3.  3. -1. -1. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [ 2. -1. -1.  2. -1.  2. -1.  2.  2.  2. -1. -1. -1. -1. -1. -1.  2. -1.    3.  2. -1.  2.  3.  2.  2.  3.  3. -1.  3.  3.  2.  2. -1.  2.  2.  2.    2.  2. -1.  3.  3.  3.  2.  2. -1.  2.  2.  2.  2.  2.  2.  2. -1.  2.    2. -1.  2.  2.  3.  3.  3.  3.  3.  3.  3.  2. -1.  2.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1. -1. -1.  2. -1. -1. -1.  2.  2. -1. -1. -1. -1. -1. -1. -1.  2. -1.    3. -1. -1.  2.  3. -1.  2.  3.  3. -1.  3.  3.  2. -1. -1. -1.  2.  2.    2. -1. -1. -1. -1. -1.  2.  2. -1.  2.  2. -1. -1. -1.  2. -1. -1. -1.   -1.  2.  2.  2.  3. -1. -1.  3. -1.  3.  3. -1. -1. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3. -1.  2.  3. -1.  3.  3.  3.  3. -1.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1. -1. -1. -1. -1. -1. -1.  2.  2.  2. -1. -1. -1. -1. -1. -1. -1. -1.    3. -1. -1. -1.  3. -1. -1.  3.  3. -1.  3.  3.  2. -1. -1. -1.  2.  2.    2. -1. -1.  3.  3.  3.  2.  2. -1. -1. -1. -1. -1. -1.  2. -1. -1. -1.   -1. -1. -1.  2. -1. -1.  3. -1.  3.  3. -1. -1. -1. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1. -1. -1.  2. -1. -1. -1.  2.  2.  2. -1. -1. -1. -1. -1. -1.  2. -1.    3. -1. -1.  2.  3. -1.  2.  3.  3. -1.  3.  3.  2. -1. -1. -1.  2.  2.    2. -1. -1.  3.  3.  3.  2.  2. -1.  2. -1. -1. -1. -1.  2. -1. -1. -1.   -1. -1. -1.  2. -1. -1. -1. -1.  3.  3. -1. -1. -1. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1. -1.  3.  2.  2.  2. -1.  2.  2.  2. -1.  3. -1. -1. -1.  3. -1.  2.    3.  2.  2. -1. -1.  2.  2.  3.  3. -1. -1. -1.  2.  2. -1.  2.  2.  2.    2.  2.  3.  3.  3.  3.  2.  2. -1.  2.  2.  2.  2. -1.  2.  2.  2.  2.    2.  2. -1.  2. -1. -1. -1. -1.  3. -1. -1.  2.  2. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]  [-1. -1. -1.  2. -1. -1. -1.  2.  2. -1. -1. -1. -1. -1. -1. -1.  2. -1.    3. -1. -1.  2.  3. -1.  2.  3.  3. -1.  3.  3.  2. -1. -1. -1.  2.  2.    2. -1. -1.  3.  3.  3.  2. -1. -1.  2. -1. -1. -1. -1.  2. -1. -1. -1.   -1. -1. -1.  2.  3.  3.  3.  3.  3.  3.  3. -1. -1. -1.  3.  2.  3.  2.    3.  2.  3.  3.  3.  3.  2.  2.  3.  2.  3.  3.  3.  3.  2.  2.  3.  2.    2.  2.  3.  3.  2.  2.  2.]] ---------nolvety_detection----------- [-1, -1, -1, -1, -1, -1, -1, 2.0, 2.0, -1, -1, -1, -1, -1, -1, -1, -1, -1, 3.0, -1, -1, -1, -1, -1, -1, 3.0, 3.0, -1, 3.0, -1, 2.0, -1, -1, -1, 2.0, 2.0, 2.0, -1, -1, 3.0, 3.0, 3.0, 2.0, -1, -1, -1, -1, -1, -1, -1, 2.0, -1, -1, -1, -1, -1, -1, 2.0, -1, -1, -1, -1, 3.0, -1, -1, -1, -1, -1, 3.0, 2.0, 3.0, 2.0, 3.0, 2.0, 3.0, 3.0, 3.0, 3.0, 2.0, 2.0, 3.0, 2.0, 3.0, 3.0, 3.0, 3.0, 2.0, 2.0, 3.0, 2.0, 2.0, 2.0, 3.0, 3.0, 2.0, 2.0, 2.0] 异常检测时，预测概率 :  异常的，没有检测出来，认为是正常的:  [ 16.63    15.46     0.8747   6.053    3.465    2.04     5.877    1.    ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 16.44   15.25    0.888   5.884   3.505   1.969   5.533   1.   ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 12.72    13.57     0.8686   5.226    3.049    4.102    4.914    1.    ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 13.02    13.76     0.8641   5.395    3.026    3.373    4.825    1.    ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 12.74    13.67     0.8564   5.395    2.956    2.504    4.869    1.    ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 13.45    14.02     0.8604   5.516    3.065    3.531    5.097    1.    ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 15.49    14.94     0.8724   5.757    3.371    3.412    5.228    1.    ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 16.12   15.      0.9     5.709   3.485   2.27    5.443   1.   ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 16.2     15.27     0.8734   5.826    3.464    2.823    5.527    1.    ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 17.08    15.38     0.9079   5.832    3.683    2.956    5.484    1.    ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 13.54    13.85     0.8871   5.348    3.156    2.587    5.178    1.    ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 13.5     13.85     0.8852   5.351    3.158    2.249    5.176    1.    ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 13.16    13.55     0.9009   5.138    3.201    2.461    4.783    1.    ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 15.5    14.86    0.882   5.877   3.396   4.711   5.528   1.   ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 15.78    14.91     0.8923   5.674    3.434    5.593    5.136    1.    ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 15.38    14.77     0.8857   5.662    3.419    1.999    5.222    1.    ] ---&gt; 2.0 异常的，没有检测出来，认为是正常的:  [ 13.22   13.84    0.868   5.395   3.07    4.157   5.088   1.   ] ---&gt; 3.0 异常的，没有检测出来，认为是正常的:  [ 12.73    13.75     0.8458   5.412    2.882    3.533    5.067    1.    ] ---&gt; 3.0 样本集中一共有97个样本点 样本集中一共有69个异常点 检测出 51个异常点 一共有28个正常点 是正常点，且正确分类 ： 28 是正常点，误认为是异常点 ： 0 错误分类 ： 0 召回率 ：0.739130  准确率 ：1.000000  正确率 ：0.814433  Process finished with exit code 0</find>
+      <find>10</find>
+      <find>dran_tree</find>
+      <find>np.array</find>
+      <find>lift</find>
+      <find>距离</find>
+      <find>recall_binary_tree</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>left</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data_set/wine_2_3.csv" />
+        <option value="$PROJECT_DIR$/data_set/wine_2.csv" />
+        <option value="$PROJECT_DIR$/data_set/wine_1_3.csv" />
+        <option value="$PROJECT_DIR$/data_set/wine_3.csv" />
+        <option value="$PROJECT_DIR$/data_set/wine_1_2.csv" />
+        <option value="$PROJECT_DIR$/data_set/balance_3.csv" />
+        <option value="$PROJECT_DIR$/data_set/balance_1_2.csv" />
+        <option value="$PROJECT_DIR$/Novelty_Class_Detection_for_RF.py" />
+        <option value="$PROJECT_DIR$/../Novelty_Class_Detection_for_RF/Novelty_Class_Detection_for_RF.py" />
+        <option value="$PROJECT_DIR$/data_set/dermatology_6.csv" />
+        <option value="$PROJECT_DIR$/data_set/dermatology_1.csv" />
+        <option value="$PROJECT_DIR$/data_set/dermatology.csv" />
+        <option value="$PROJECT_DIR$/seeds数据误分类说明.txt" />
+        <option value="$PROJECT_DIR$/../Random_Forest_Classification_v5_DFC_v2/decision_tree.py" />
+        <option value="$PROJECT_DIR$/data_set/glass_3.csv" />
+        <option value="$PROJECT_DIR$/data_set/glass_5.csv" />
+        <option value="$PROJECT_DIR$/data_set/glass_6.csv" />
+        <option value="$PROJECT_DIR$/data_set/glass_7.csv" />
+        <option value="$PROJECT_DIR$/data_set/iris_1.csv" />
+        <option value="$PROJECT_DIR$/data_set/iris_1_2.csv" />
+        <option value="$PROJECT_DIR$/data_set/iris_1_3.csv" />
+        <option value="$PROJECT_DIR$/data_set/iris_2.csv" />
+        <option value="$PROJECT_DIR$/data_set/iris_3.csv" />
+        <option value="$PROJECT_DIR$/data_set/discretization_iris.csv" />
+        <option value="$PROJECT_DIR$/sklearn_random_forest.py" />
+        <option value="$PROJECT_DIR$/tree_main.py" />
+        <option value="$PROJECT_DIR$/data_discretization.py" />
+        <option value="$PROJECT_DIR$/data_of_projection_show.py" />
+        <option value="$PROJECT_DIR$/decomposition_tool.py" />
+        <option value="$PROJECT_DIR$/sample_slplit.py" />
+        <option value="$PROJECT_DIR$/data_set/seeds.csv" />
+        <option value="$PROJECT_DIR$/data_set/seeds_1_2.csv" />
+        <option value="$PROJECT_DIR$/gaussian_model.py" />
+        <option value="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" />
+        <option value="$PROJECT_DIR$/doubly_linked_list/doublyLinkedList.py" />
+        <option value="$PROJECT_DIR$/doubly_linked_list/recall_binary_tree.py" />
+        <option value="$PROJECT_DIR$/chain_storage_test/recall_binary_tree.py" />
+        <option value="$PROJECT_DIR$/chain_storage_test/recall_binary_tree_demo.py" />
+        <option value="$PROJECT_DIR$/参数设置.txt" />
+        <option value="$PROJECT_DIR$/../../常用代码.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/recall_binary_tree.py" />
+        <option value="$PROJECT_DIR$/test_forest.py" />
+        <option value="$PROJECT_DIR$/random_forest.py" />
+        <option value="$PROJECT_DIR$/utilities.py" />
+        <option value="$PROJECT_DIR$/可回溯二叉树说明.txt" />
+        <option value="$PROJECT_DIR$/test_tree.py" />
+        <option value="$PROJECT_DIR$/decision_tree.py" />
+        <option value="$PROJECT_DIR$/sklearn_rf_compaer_to_myrf.py" />
+        <option value="$PROJECT_DIR$/说明.TXT" />
+        <option value="$PROJECT_DIR$/Novelty_Class_Detection_for_DFC.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python_project\second_article_project\Random_Forest_Classification_Of_Recall_v8" />
+      <recent name="E:\python_project\second_article_project\Random_Forest_Classification_v1\doubly_linked_list" />
+      <recent name="E:\python_project" />
+      <recent name="E:\python_project\Random_Forest_Classification_v5_DFC_v7\data_set" />
+      <recent name="E:\python_project\Random_Forest_Classification_v5_DFC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python_project\second_article_project\Random_Forest_Classification_Of_Recall_v2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_tree">
+    <configuration default="false" name="test_forest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_forest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Novelty_Class_Detection_for_DFC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Novelty_Class_Detection_for_DFC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="random_forest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random_forest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sklearn_rf_compaer_to_myrf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sklearn_rf_compaer_to_myrf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Random_Forest_Classification" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.test_forest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_tree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Novelty_Class_Detection_for_DFC" />
+      <item index="3" class="java.lang.String" itemvalue="Python.random_forest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sklearn_rf_compaer_to_myrf" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_tree" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_forest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Novelty_Class_Detection_for_DFC" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sklearn_rf_compaer_to_myrf" />
+        <item index="4" class="java.lang.String" itemvalue="Python.random_forest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="738e3833-ed59-412e-b657-7b7ba988b104" name="Default" comment="" />
+      <created>1511530538697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511530538697</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_Random_Forest_Classification - 2017.11.24 at 21h 36m 01s.xml">
+      <configuration name="Nosetests in Random_Forest_Classification" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17207335" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31560892" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6169355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31560892" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17207335" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6169355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="X_true" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data_set/iris_1_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/dermatology_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="80" column="70" lean-forward="false" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/wine_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1364">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/seeds_2_3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3614">
+          <caret line="139" column="44" lean-forward="false" selection-start-line="139" selection-start-column="44" selection-end-line="139" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Random_Forest_Classification_v5_DFC_v3/Novelty_Class_Detection_for_DFC.py" />
+    <entry file="file://$PROJECT_DIR$/data_set/dermatology.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../常用代码.py" />
+    <entry file="file://$PROJECT_DIR$/data_set/seeds_3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/discretization_iris.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.py" />
+    <entry file="file://$PROJECT_DIR$/sample_slplit.py" />
+    <entry file="file://$PROJECT_DIR$/data_set/seeds_1_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/seeds.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/iris.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1300">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/iris_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda2/envs/py3x/Lib/site-packages/numpy/matrixlib/defmatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="342" column="0" lean-forward="false" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda2/envs/py3x/Lib/site-packages/sklearn/gaussian_process/gaussian_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="233" column="35" lean-forward="false" selection-start-line="233" selection-start-column="35" selection-end-line="233" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda2/envs/py3x/Lib/site-packages/sklearn/multiclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="595" column="63" lean-forward="true" selection-start-line="595" selection-start-column="63" selection-end-line="595" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda2/envs/py3x/Lib/site-packages/sklearn/gaussian_process/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda2/envs/py3x/Lib/site-packages/sklearn/gaussian_process/gpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="577" column="41" lean-forward="true" selection-start-line="577" selection-start-column="41" selection-end-line="577" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../one_class_svm_v5/Clasification_Using_Projection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaussian_model.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/113502810/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="4233" column="8" lean-forward="false" selection-start-line="4233" selection-start-column="8" selection-end-line="4233" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain_storage_test/doubly_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../python_data_struct/datastructure-master/tree/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../python_data_struct/datastructure-master/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain_storage_test/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain_storage_test/doublyLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="164" column="32" lean-forward="true" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain_storage_test/recall_binary_tree_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_set/test_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../常用代码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="71" column="10" lean-forward="true" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_discretization.py" />
+    <entry file="file://$PROJECT_DIR$/data_of_projection_show.py" />
+    <entry file="file://$PROJECT_DIR$/seeds数据误分类说明.txt" />
+    <entry file="file://$PROJECT_DIR$/decomposition_tool.py" />
+    <entry file="file://$PROJECT_DIR$/参数设置.txt" />
+    <entry file="file://$PROJECT_DIR$/../Random_Forest_Classification_Of_Recall_v7/decision_tree.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/113502810/sklearn/tree/_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="640" column="8" lean-forward="false" selection-start-line="640" selection-start-column="8" selection-end-line="640" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recall_binary_tree.py" />
+    <entry file="file://$PROJECT_DIR$/可回溯二叉树说明.txt" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Novelty_Class_Detection_for_DFC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda2/envs/py3x/Lib/site-packages/sklearn/ensemble/forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25688">
+          <caret line="1013" column="42" lean-forward="false" selection-start-line="1013" selection-start-column="42" selection-end-line="1013" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11466">
+          <caret line="445" column="39" lean-forward="false" selection-start-line="445" selection-start-column="39" selection-end-line="445" selection-end-column="39" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="151" column="55" lean-forward="false" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda2/envs/py3x/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="667" column="7" lean-forward="true" selection-start-line="667" selection-start-column="7" selection-end-line="667" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sklearn_rf_compaer_to_myrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
